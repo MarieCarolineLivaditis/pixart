@@ -1,0 +1,11 @@
+.Pixel {
+    width: 2rem;
+    background-color: #fff;
+    border: 0.1rem solid #fff;
+
+    &::before {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+      }
+}

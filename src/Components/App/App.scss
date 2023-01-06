@@ -1,0 +1,20 @@
+@use '../../styles/vars';
+
+.App {
+  margin: 1em;
+  &-header {
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+    color: #fff;
+  }
+
+  &-main {
+    display: flex;
+    justify-content: center;
+    &-settings {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+}
